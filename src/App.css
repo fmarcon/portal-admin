@@ -47,45 +47,10 @@ a {
 }
 
 a:hover {
-  color: red;
-}
-
-
-
-
-.logo {
-  width: 30px;
-}
-
-.perfil {
-  border-radius: 50%;
-  width: 50px;
-}
-
-.topo-esquerdo {
-  display: flex;
-  justify-content: flex-start;
-  align-items: stretch;
+  acolor: red;
+  font-size: large
 }
 
 .item-espaco {
   margin-right: 8px;
-}
-
-.caixa {
-  margin: 25px;
-  border-radius: 8px;
-  padding: 15px;
-  background-color: rgb(40, 48, 70);
-}
-
-.caixa > ul > li {
-  padding: 8px;
-}
-
-.header-perfil {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  /* align-content: center; Not working*/
 }

@@ -4,7 +4,7 @@ import "./CaixaMenu.css";
 function CaixaMenu(props) {
   return (
     <div className="caixa grupo-menu">
-      <h4>Submenu1</h4>
+      <h4>{props.titulo}</h4>
       <br />
       <ul>
         <li>

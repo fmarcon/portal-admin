@@ -1,0 +1,11 @@
+.logo {
+    width: 30px;
+  }
+
+.topo-esquerdo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+
+  

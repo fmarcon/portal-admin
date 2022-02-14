@@ -1,0 +1,13 @@
+.header-perfil {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* align-content: center; Not working*/
+  }
+
+
+  
+  .perfil {
+    border-radius: 50%;
+    width: 50px;
+  }

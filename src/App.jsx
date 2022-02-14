@@ -5,10 +5,16 @@ import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
 
+
 function App() {
+
+  function criarMenus() {
+    return [{titulo: 'Sub01'}, {'titulo': 'Sub02'}]
+  }
+
   return (
     <div className="container">
-      <Aside></Aside>
+      <Aside menus={criarMenus}></Aside>
       <Header></Header>
       <Main></Main>
       <Footer></Footer>
