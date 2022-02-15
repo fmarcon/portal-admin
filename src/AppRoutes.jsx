@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
 import Login from "./pages/Login/Login";
 import HomePage from "./pages/Home/Home";
@@ -6,12 +6,12 @@ import HomePage from "./pages/Home/Home";
 
 function AppRoutes() {
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         <Route exact path="/login" element={<Login/>}></Route>
         <Route exact path="/" element={<HomePage/>}></Route>
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 };
 

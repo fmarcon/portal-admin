@@ -1,10 +1,14 @@
+:root {
+  --cor-texto: white;
+}
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   font-family: Montserrat;
-  color: white;
 }
 
 
@@ -17,6 +21,7 @@
       "footer footer";
   grid-template-columns: 330px 2fr;
   grid-template-rows: auto 100vh auto;
+  color: var(--cor-texto);
 }
 
 header {
@@ -48,7 +53,6 @@ a {
 }
 
 a:hover {
-  acolor: red;
   font-size: large
 }
 
