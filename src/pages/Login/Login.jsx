@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import "./Login.css";
 
-import Context from "../../Context";
+import AuthContext from "../../contexts/AuthContext";
 
 function Login() {
-  const [email, setEmail] = useContext(Context);
+  const [email, setEmail] = useContext(AuthContext);
 
   const handleChangeEmail = function(e) {
     console.log(e.target.value);

@@ -5,11 +5,11 @@ import Aside from "../../components/Aside/Aside";
 import Header from "../../components/Header/Header";
 import Main from "../../components/Main/Main";
 import Footer from "../../components/Footer/Footer";
-import Context from "../../Context";
+import AuthContext from "../../contexts/AuthContext";
 
 function HomePage() {
 
-  const [email, setEmail] = useContext(Context);
+  const [email, setEmail] = useContext(AuthContext);
 
   function criarMenus() {
     return [{ titulo: "Sub01" }, { titulo: "Sub02" }];

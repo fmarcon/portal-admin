@@ -1,10 +1,10 @@
 import React, {useContext} from "react";
 import "./Header.css";
 
-import Context from "../../Context";
+import AuthContext from "../../contexts/AuthContext";
 
 function Header(props) {
-  const [email, setEmail] = useContext(Context);
+  const [email, setEmail] = useContext(AuthContext);
 
   return (
     <header>

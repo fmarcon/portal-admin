@@ -1,5 +1,5 @@
 import AppRoutes from './AppRoutes';
-import Context from "./Context";
+import AuthContext from "./contexts/AuthContext"
 import { useState } from "react";
 
 function App() {
@@ -11,9 +11,9 @@ function App() {
   const [email, setEmail] = useState("abc@gmail.br");
  
   return (
-    <Context.Provider value={[email, setEmail]}>
+    <AuthContext.Provider value={[email, setEmail]}>
       <AppRoutes />
-    </Context.Provider>
+    </AuthContext.Provider>
   );
 }
 
