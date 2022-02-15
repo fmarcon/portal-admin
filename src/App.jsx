@@ -1,23 +1,13 @@
-import "./App.css";
-
-import Aside from "./components/Aside/Aside";
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
-import Footer from "./components/Footer/Footer";
-
+import AppRoutes from "./AppRoutes";
 
 function App() {
-
   function criarMenus() {
-    return [{titulo: 'Sub01'}, {'titulo': 'Sub02'}]
+    return [{ titulo: "Sub01" }, { titulo: "Sub02" }];
   }
 
   return (
-    <div className="container">
-      <Aside menus={criarMenus}></Aside>
-      <Header></Header>
-      <Main></Main>
-      <Footer></Footer>
+    <div>
+      <AppRoutes />
     </div>
   );
 }

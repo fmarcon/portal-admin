@@ -5,10 +5,12 @@ import TopoEsquerdo from "../TopoEsquerdo/TopoEsquerdo";
 
 function Aside(props) {
   function getMenus() {
-    return [{ titulo: "sdf" }, { titulo: "sdf1" }];
-    console.log(props)
-    return props
-
+    return [
+      { id: 1, titulo: "sdf" },
+      { id: 2, titulo: "sdf1" },
+    ];
+    console.log(props);
+    return props;
   }
 
   return (
@@ -16,7 +18,7 @@ function Aside(props) {
       <TopoEsquerdo></TopoEsquerdo>
 
       {getMenus().map((obj) => (
-        <CaixaMenu titulo={obj.titulo}></CaixaMenu>
+        <CaixaMenu key={obj.id} titulo={obj.titulo}></CaixaMenu>
       ))}
     </aside>
   );
