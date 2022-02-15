@@ -1,14 +1,19 @@
-import AppRoutes from "./AppRoutes";
+import AppRoutes from './AppRoutes';
+import Context from "./Context";
+import { useState } from "react";
 
 function App() {
+
   function criarMenus() {
     return [{ titulo: "Sub01" }, { titulo: "Sub02" }];
   }
 
+  const [email, setEmail] = useState("abc@gmail.br");
+ 
   return (
-    <div>
+    <Context.Provider value={[email, setEmail]}>
       <AppRoutes />
-    </div>
+    </Context.Provider>
   );
 }
 

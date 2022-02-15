@@ -1,9 +1,14 @@
-import React from "react";
+import React, {useContext} from "react";
 import "./Header.css";
 
+import Context from "../../Context";
+
 function Header(props) {
+  const [email, setEmail] = useContext(Context);
+
   return (
     <header>
+      Usuário: {email}
       <div className="header-perfil caixa">
         <img
           className="item-espaco"
