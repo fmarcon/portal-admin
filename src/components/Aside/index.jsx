@@ -1,7 +1,7 @@
 import React from "react";
 import "./Aside.css";
-import CaixaMenu from "../CaixaMenu/CaixaMenu";
-import TopoEsquerdo from "../TopoEsquerdo/TopoEsquerdo";
+import CaixaMenu from "../CaixaMenu";
+import TopoEsquerdo from "../TopoEsquerdo";
 
 function Aside(props) {
   function getMenus() {
