@@ -7,15 +7,16 @@
   color: white;
 }
 
+
 .container {
+  background-color: rgb(22,29,49);
   display: grid;
   grid-template-areas: 
-      "aside header"
-      "aside main"
+  "aside header"
+  "aside main"
       "footer footer";
   grid-template-columns: 330px 2fr;
   grid-template-rows: auto 100vh auto;
-  background-color: rgb(22,29,49);
 }
 
 header {

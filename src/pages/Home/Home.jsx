@@ -1,10 +1,10 @@
 import React from "react";
 
 import "../../App.css";
-import Aside from "../Aside/Aside";
-import Header from "../Header/Header";
-import Main from "../Main/Main";
-import Footer from "../Footer/Footer";
+import Aside from "../../components/Aside/Aside";
+import Header from "../../components/Header/Header";
+import Main from "../../components/Main/Main";
+import Footer from "../../components/Footer/Footer";
 
 function HomePage() {
   function criarMenus() {
