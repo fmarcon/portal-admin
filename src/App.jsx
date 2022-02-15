@@ -1,20 +1,11 @@
-import AppRoutes from './AppRoutes';
-import AuthContext from "./contexts/AuthContext"
-import { useState } from "react";
+import AppRoutes from "./AppRoutes";
 
 function App() {
-
   function criarMenus() {
     return [{ titulo: "Sub01" }, { titulo: "Sub02" }];
   }
 
-  const [email, setEmail] = useState("abc@gmail.br");
- 
-  return (
-    <AuthContext.Provider value={[email, setEmail]}>
-      <AppRoutes />
-    </AuthContext.Provider>
-  );
+  return <AppRoutes />;
 }
 
 export default App;

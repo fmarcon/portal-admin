@@ -4,11 +4,10 @@ import "./Header.css";
 import AuthContext from "../../contexts/AuthContext";
 
 function Header(props) {
-  const [email, setEmail] = useContext(AuthContext);
+  //const [email, setEmail] = useContext(AuthContext);
 
   return (
     <header>
-      Usuário: {email}
       <div className="header-perfil caixa">
         <img
           className="item-espaco"

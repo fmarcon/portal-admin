@@ -9,7 +9,7 @@ import AuthContext from "../../contexts/AuthContext";
 
 function HomePage() {
 
-  const [email, setEmail] = useContext(AuthContext);
+  //const [email, setEmail] = useContext(AuthContext);
 
   function criarMenus() {
     return [{ titulo: "Sub01" }, { titulo: "Sub02" }];
@@ -17,7 +17,6 @@ function HomePage() {
 
   return (
     <div className="container">
-      <h1>Usuário: {email} </h1>
       <Aside menus={criarMenus}></Aside>
       <Header></Header>
       <Main></Main>
