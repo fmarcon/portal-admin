@@ -1,5 +1,5 @@
 import React from "react";
-import "./TopoEsquerdo.css";
+import "./style.css";
 
 function TopoEsquerdo(props) {
   return (

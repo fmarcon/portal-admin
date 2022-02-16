@@ -1,5 +1,5 @@
 import React from "react";
-import "./Main.css";
+import "./style.css";
 
 function Main(props) {
   const calcular = function (e) {

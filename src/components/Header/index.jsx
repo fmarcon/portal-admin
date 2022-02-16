@@ -1,11 +1,7 @@
-import React, {useContext} from "react";
-import "./Header.css";
-
-import AuthContext from "../../contexts/auth";
+import React, { useContext } from "react";
+import "./style.css";
 
 function Header(props) {
-  //const [email, setEmail] = useContext(AuthContext);
-
   return (
     <header>
       <div className="header-perfil caixa">

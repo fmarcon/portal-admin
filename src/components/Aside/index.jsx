@@ -1,5 +1,5 @@
 import React from "react";
-import "./Aside.css";
+import "./style.css";
 import CaixaMenu from "../CaixaMenu";
 import TopoEsquerdo from "../TopoEsquerdo";
 

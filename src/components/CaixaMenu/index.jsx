@@ -1,5 +1,5 @@
 import React from "react";
-import "./CaixaMenu.css";
+import "./style.css";
 
 function CaixaMenu(props) {
   return (
