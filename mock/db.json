@@ -1,0 +1,19 @@
+{
+    "menus": [
+        {
+            "id": 1,
+            "nome": "Cadastro de Usuários",
+            "url": "/usuarios"
+        },
+        {
+            "id": 2,
+            "nome": "Cadastro de Grupos",
+            "url": "/grupos"
+        },
+        {
+            "id": 3,
+            "nome": "Cadastro de Produtos",
+            "url": "/produtos"
+        }
+    ]
+}
