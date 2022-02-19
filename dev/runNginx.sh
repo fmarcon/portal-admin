@@ -1,1 +1,1 @@
-docker run -it nginx-p01 /bin/bash
+docker run -it nginxp01 /bin/bash
