@@ -1,5 +1,3 @@
-
-
 if [ $1 = 's' ]; then
     COMANDO='./manage.py shell_plus'
 

@@ -2,7 +2,6 @@
 # sendo executado
 sudo service nginx stop
 
-
 docker run \
   --rm -it \
   --name cp01nginx \
