@@ -136,3 +136,6 @@ REST_FRAMEWORK = {
 CSRF_TRUSTED_ORIGINS=[
     'https://proj01.ucs.br'
 ]
+
+if DEBUG:
+    INSTALLED_APPS += ['django_extensions']
