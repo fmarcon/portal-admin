@@ -1,0 +1,11 @@
+FROM python:3
+
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
+
+WORKDIR /api
+
+RUN pip install --upgrade pip
+RUN pip install Django==4.0.2
+RUN pip install djangorestframework==3.13.1
+RUN pip install djangorestframework-simplejwt==5.0.0

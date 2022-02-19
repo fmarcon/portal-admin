@@ -1,0 +1,15 @@
+FROM nginx
+
+# Configuração do nginx
+RUN rm /etc/nginx/conf.d/default.conf
+COPY etc/nginx/conf.d/default.conf /etc/nginx/conf.d/
+
+# index.html
+RUN mkdir -p /var/www/html
+COPY var/www/html/index.html /var/www/html/
+
+# Certificados
+COPY etc/ssl/certs/nginx-selfsigned.crt /etc/ssl/certs/
+COPY etc/ssl/private/nginx-selfsigned.key /etc/ssl/private/
+COPY etc/ssl/certs/dhparam.pem /etc/ssl/certs/
+

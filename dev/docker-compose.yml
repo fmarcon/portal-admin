@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  webserver:
+    image: nginx-p01
+    restart: always
+    ports:
+      - 443:443

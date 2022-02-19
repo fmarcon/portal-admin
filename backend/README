@@ -1,0 +1,2 @@
+# Para testar
+curl -X POST -H "Content-Type: application/json" -d '{"username": "user", "password": "senha"}' http://localhost:8000/token/

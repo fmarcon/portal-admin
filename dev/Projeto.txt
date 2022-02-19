@@ -1,0 +1,14 @@
+DockerFileReactjs
+proj01.ucs.br/
+react:3000
+
+
+
+
+DokerFileNginx
+proj01.ucs.br/*
+nginx:443
+
+DockerFileDjango
+proj01.ucs.br/api
+django:8000
